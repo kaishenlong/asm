@@ -88,7 +88,7 @@
                 $motasp=$_POST['motasp'];
                 $soluong= $_POST['soluong'];
                 $hinh=$_FILES['img']['name'];
-                $target_dir ="../Model/upload/";
+                $target_dir ="app/Models/upload/";
                 $target_file = $target_dir . basename($_FILES["img"]["name"]);
                 if(move_uploaded_file($_FILES["img"]["tmp_name"], $target_file)) {
                     // echo "The file ". htmlspecialchars( basename( $_FILES["img"]["name"])). " has been uploaded.";

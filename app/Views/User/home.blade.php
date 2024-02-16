@@ -44,7 +44,7 @@
             $i=0;
             foreach ($listsp as $sp){
                 extract($sp);
-                $hinh = "../Model/upload/".$img;
+                $hinh = "app/Models/upload/".$img;
                 $linksp="index.php?act=chitietsp&idsp=".$id;
                 
                 if(($i==2)||($i==5)||($i==8)){

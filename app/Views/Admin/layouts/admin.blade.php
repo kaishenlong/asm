@@ -18,53 +18,53 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="app/Views/Admin/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/bootstrap.min.css'}}">
     <!-- Bootstrap CSS
         ============================================ -->
-    <link rel="stylesheet" href="app/Views/Admin/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/font-awesome.min.css'}}">
     <!-- nalika Icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="app/Views/Admin/css/nalika-icon.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/nalika-icon.css'}}">
     <!-- owl.carousel CSS
         ============================================ -->
-    <link rel="stylesheet" href="app/Views/Admin/css/owl.carousel.css">
-    <link rel="stylesheet" href="app/Views/Admin/css/owl.theme.css">
-    <link rel="stylesheet" href="app/Views/Admin/css/owl.transitions.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/owl.carousel.css'}}">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/owl.theme.css'}}">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/owl.transitions.css'}}">
     <!-- animate CSS
         ============================================ -->
-    <link rel="stylesheet" href="app/Views/Admin/css/animate.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/animate.css'}}">
     <!-- normalize CSS
         ============================================ -->
-    <link rel="stylesheet" href="app/Views/Admin/css/normalize.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/normalize.css'}}">
     <!-- meanmenu icon CSS
         ============================================ -->
-    <link rel="stylesheet" href="app/Views/Admin/css/meanmenu.min.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/meanmenu.min.css'}}">
     <!-- main CSS
         ============================================ -->
-    <link rel="stylesheet" href="app/Views/Admin/css/main.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/main.css'}}">
     <!-- morrisjs CSS
         ============================================ -->
-    <link rel="stylesheet" href="app/Views/Admin/css/morrisjs/morris.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/morrisjs/morris.css'}}">
     <!-- mCustomScrollbar CSS
         ============================================ -->
-    <link rel="stylesheet" href="app/Views/Admin/css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/scrollbar/jquery.mCustomScrollbar.min.css'}}">
     <!-- metisMenu CSS
         ============================================ -->
-    <link rel="stylesheet" href="app/Views/Admin/css/metisMenu/metisMenu.min.css">
-    <link rel="stylesheet" href="app/Views/Admin/css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/metisMenu/metisMenu.min.css'}}">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/metisMenu/metisMenu-vertical.css'}}">
     <!-- calendar CSS
         ============================================ -->
-    <link rel="stylesheet" href="app/Views/Admin/css/calendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="app/Views/Admin/css/calendar/fullcalendar.print.min.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/calendar/fullcalendar.min.css'}}">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/calendar/fullcalendar.print.min.css'}}">
     <!-- style CSS
         ============================================ -->
-    <link rel="stylesheet" href="app/Views/Admin/style.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/style.css'}}">
     <!-- responsive CSS
         ============================================ -->
-    <link rel="stylesheet" href="app/Views/Admin/css/responsive.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/Admin/css/responsive.css'}}">
     <!-- modernizr JS
         ============================================ -->
-    <script src="app/Views/Admin/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="{{BASE_URL.'/app/Views/Admin/js/vendor/modernizr-2.8.3.min.js'}}"></script>
 </head>
 
 <body>
@@ -80,7 +80,7 @@
             </div> -->
             <div class="nalika-profile">
                 <div class="profile-dtl">
-                    <a href="../view/index.php"><img src="../Views/asset/img/logo.png" alt="" /></a>
+                    <a href="{{route('/adhome')}}"><img src="{{'BASE_URL'.'/Views/asset/img/logo.png'}}" alt="" /></a>
                     <h2>Eko <span class="min-dtn">Eats</span></h2>
                 </div>
                 <div class="profile-social-dtl">
@@ -460,57 +460,57 @@
 </footer>
 <!-- jquery
     ============================================ -->
-<script src="app/Views/Admin/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/vendor/jquery-1.12.4.min.js'}}"></script>
 <!-- bootstrap JS
     ============================================ -->
-<script src="app/Views/Admin/js/bootstrap.min.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/bootstrap.min.js'}}"></script>
 <!-- wow JS
     ============================================ -->
-<script src="app/Views/Admin/js/wow.min.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/wow.min.js'}}"></script>
 <!-- price-slider JS
     ============================================ -->
-<script src="app/Views/Admin/js/jquery-price-slider.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/jquery-price-slider.js'}}"></script>
 <!-- meanmenu JS
     ============================================ -->
-<script src="app/Views/Admin/js/jquery.meanmenu.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/jquery.meanmenu.js'}}"></script>
 <!-- owl.carousel JS
     ============================================ -->
-<script src="app/Views/Admin/js/owl.carousel.min.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/owl.carousel.min.js'}}"></script>
 <!-- sticky JS
     ============================================ -->
-<script src="app/Views/Admin/js/jquery.sticky.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/jquery.sticky.js'}}"></script>
 <!-- scrollUp JS
     ============================================ -->
-<script src="app/Views/Admin/js/jquery.scrollUp.min.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/jquery.scrollUp.min.js'}}"></script>
 <!-- mCustomScrollbar JS
     ============================================ -->
-<script src="app/Views/Admin/js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="app/Views/Admin/js/scrollbar/mCustomScrollbar-active.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/scrollbar/jquery.mCustomScrollbar.concat.min.js'}}"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/scrollbar/mCustomScrollbar-active.js'}}"></script>
 <!-- metisMenu JS
     ============================================ -->
-<script src="app/Views/Admin/js/metisMenu/metisMenu.min.js"></script>
-<script src="app/Views/Admin/js/metisMenu/metisMenu-active.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/metisMenu/metisMenu.min.js'}}"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/metisMenu/metisMenu-active.js'}}"></script>
 <!-- sparkline JS
     ============================================ -->
-<script src="app/Views/Admin/js/sparkline/jquery.sparkline.min.js"></script>
-<script src="app/Views/Admin/js/sparkline/jquery.charts-sparkline.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/sparkline/jquery.sparkline.min.js'}}"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/sparkline/jquery.charts-sparkline.js'}}"></script>
 <!-- calendar JS
     ============================================ -->
-<script src="app/Views/Admin/js/calendar/moment.min.js"></script>
-<script src="app/Views/Admin/js/calendar/fullcalendar.min.js"></script>
-<script src="app/Views/Admin/js/calendar/fullcalendar-active.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/calendar/moment.min.js'}}"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/calendar/fullcalendar.min.js'}}"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/calendar/fullcalendar-active.js'}}"></script>
 <!-- float JS
     ============================================ -->
-<script src="app/Views/Admin/js/flot/jquery.flot.js"></script>
-<script src="app/Views/Admin/js/flot/jquery.flot.resize.js"></script>
-<script src="app/Views/Admin/js/flot/curvedLines.js"></script>
-<script src="app/Views/Admin/js/flot/flot-active.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/flot/jquery.flot.js'}}"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/flot/jquery.flot.resize.js'}}"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/flot/curvedLines.js'}}"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/flot/flot-active.js'}}"></script>
 <!-- plugins JS
     ============================================ -->
-<script src="app/Views/Admin/js/plugins.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/plugins.js'}}"></script>
 <!-- main JS
     ============================================ -->
-<script src="app/Views/Admin/js/main.js"></script>
+<script src="{{BASE_URL.'/app/Views/Admin/js/main.js'}}"></script>
 
 
 </body>

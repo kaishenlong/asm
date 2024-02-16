@@ -10,13 +10,13 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <link rel="icon" href="app/Views/asset/img/logo.png">
+    <link rel="icon" href="{{BASE_URL.'/app/Views/asset/img/logo.png'}}">
     <!-- Bootstrap CSS  -->
-    <link rel="stylesheet" href="app/Views/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="app/Views/app.css" type="text/css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/bootstrap.min.css" type="text/css'}}">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/app.css" type="text/css'}}">
     <!--  -->
-    <link rel="stylesheet" href="app/Views/asset/css/style.css">
-    <link rel="stylesheet" href="app/Views/asset/css/login.css">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/asset/css/style.css'}}">
+    <link rel="stylesheet" href="{{BASE_URL.'/app/Views/asset/css/login.css'}}">
  
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <style>
@@ -193,8 +193,8 @@
                 <div class="footer-title">
                     <h3>Download App</h3>
                     <div class="app-logo">
-                        <a class="chplay" href="#"><img width="100%" src="app/Views/asset/img/boton-google.png" alt=""></a>
-                        <a class="appstore" href="#"><img width="100%" src="app/Views/asset/img/boton-app-store.png" alt=""></a>
+                        <a class="chplay" href="#"><img width="100%" src="{{BASE_URL.'/app/Views/asset/img/boton-google.png'}}" alt=""></a>
+                        <a class="appstore" href="#"><img width="100%" src="{{BASE_URL.'/app/Views/asset/img/boton-app-store.png'}}" alt=""></a>
                     </div>
                 </div>
             </div>

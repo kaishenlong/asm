@@ -40,11 +40,10 @@ $router->any('/login',[User::class, 'login']);
 $router->any('/dangky',[User::class,'dangky']);
 $router->post('/quenmk',[User::class,'quenmk']);
 $router->any('/dangxuat',[User::class,'dangxuat']);
-$router->any('/home/{iddm}',[User::class,'home']);
 
 
 
-
+   
 
 
 
@@ -55,7 +54,7 @@ $router->any('/home/{iddm}',[User::class,'home']);
 //route group để gom nhóm các route lại với nhau
 $router->group(['before' => 'auth', 'prefix'=>'/admin'], function($router) {
 
-    $router->get('/adhome',[Admin::class,'home']);
+ $router->get('/adhome',[Admin::class,'home']);
     //san pham admin
 $router->get('/listsp', [Admin::class,'dssp']);
 $router->any('/addsp', [Admin::class,'themsp']);
